@@ -1,0 +1,70 @@
+/* Basic font family */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    /* text-align: center; */
+}
+
+input {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.search-ap {
+    position: relative;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.profile {
+    height: 150px;
+    padding: 5px;
+    border: 1px solid #939393;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.profile-info {
+    height: 150px;
+    padding-left: 15px;
+    background: rgba(0.3, 0.3, 0.3, 0.1);
+    display: flex column;
+    flex-grow: 1;
+}
+
+.profile img {
+    width: 150px;
+}
+
+/* Tablet */
+@media(min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* Desktop */
+@media(min-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+}
